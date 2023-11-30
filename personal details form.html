@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+<body>
+<style>
+    body {
+        background-color: greenyellow;
+        text-align: center;
+    }
+</style>
+<h2 style="color: red;font-family: 'Times New Roman', Times, serif;"><b>Personal Details</b></h2>
+
+<form action="/action_page.php">
+  <label for="name">Name:</label><br>
+  <input type="text" id="name" name="name"><br>
+  <label for="pwd">Password:</label><br>
+  <input type="password" id="pwd" name="pwd"><br><br>
+  <label for="email">E-mail id:</label>
+  <input type="email" id="email" name="email"><br><br>
+  <label for="gender">Gender:</label>
+  <input type="radio" id="male" name="gender" value="Male">
+  <label for="male">Male</label>
+  <input type="radio" id="female" name="gender" value="Female">
+  <label for="female">Female</label><br>
+  <label for="contact">Contact#:</label>
+  <input type="text" id="contact" name="contact"><br>
+  <br>
+  <br>
+
+  <h2 style="color: red;font-family: 'Times New Roman', Times, serif;"><b>Educational Qualification</b></h2>
+
+  <label for="degree">Degree:</label>
+  <select id="degree" name="degree">
+    <option value="selectgroup">--Select Group--</option>
+    <option value="bca">BCA</option>  
+    <option value="bsc">BSc</option>
+    <option value="btech">BTech</option>
+    <option value="barch">BArch</option>
+  </select><br><br>
+  <label id="engineering">Engineering:</label>
+  <select id="engineering" name="engineering">
+    <option value="selectgroup">--Select Group--</option>
+  </select><br><br>
+
+
+  <label for="hobbies">Hobbies:</label>
+  <input type="checkbox" id="chess" name="hobbies" value="Playing Chess">
+  <label for="chess">Playing Chess</label>
+  <input type="checkbox" id="books" name="hobbies" value="Reading Books">
+  <label for="books">Reading books</label><br>
+
+  <h2 style="color: red;font-family: 'Times New Roman', Times, serif;"><b>Address</b></h2><br><br>
+  <textarea name="message" rows="10" cols="30"></textarea><br><br>
+
+  <label for="resume">Attach Resume:</label>
+  <input type="file" id="myfile" name="myfile"><br><br>
+
+  <input type="image" src="submit.jpg" alt="Submit" width="" height="20">
+</form> 
+
+
+</body>
+</html>
